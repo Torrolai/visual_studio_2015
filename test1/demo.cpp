@@ -14,7 +14,7 @@ int main(void)
 	//Infantry infantry;
 	//infantry.attack();
 	//Soldier s1;
-
+	//saber
 
 	Person *p1 = new Soldier;
 	p1->play();
