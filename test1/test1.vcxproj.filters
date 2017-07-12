@@ -27,28 +27,40 @@
     <ClCompile Include="Infantry.cpp">
       <Filter>头文件\Pack</Filter>
     </ClCompile>
-    <ClCompile Include="Person.cpp">
-      <Filter>头文件\Pack</Filter>
-    </ClCompile>
     <ClCompile Include="Soldier.cpp">
       <Filter>头文件\Pack</Filter>
     </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>头文件\Inherit</Filter>
+    </ClCompile>
     <ClCompile Include="Worker.cpp">
-      <Filter>头文件\Pack</Filter>
+      <Filter>头文件\Inherit</Filter>
+    </ClCompile>
+    <ClCompile Include="Farmer.cpp">
+      <Filter>头文件\Inherit</Filter>
+    </ClCompile>
+    <ClCompile Include="MigrantWorker.cpp">
+      <Filter>头文件\Inherit</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Infantry.h">
       <Filter>头文件\Pack</Filter>
     </ClInclude>
-    <ClInclude Include="Person.h">
-      <Filter>头文件\Pack</Filter>
-    </ClInclude>
     <ClInclude Include="soldier.h">
       <Filter>头文件\Pack</Filter>
     </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>头文件\Inherit</Filter>
+    </ClInclude>
     <ClInclude Include="Worker.h">
-      <Filter>头文件\Pack</Filter>
+      <Filter>头文件\Inherit</Filter>
+    </ClInclude>
+    <ClInclude Include="Farmer.h">
+      <Filter>头文件\Inherit</Filter>
+    </ClInclude>
+    <ClInclude Include="MingrantWorker.h">
+      <Filter>头文件\Inherit</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

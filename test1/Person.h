@@ -1,15 +1,18 @@
 #pragma once
+#ifndef PERSON_H
+#define PERSON_H
 #include <string>
 using namespace std;
 
 class Person
 {
 public:
-	Person();
+	Person(string color = "blue");
 	virtual ~Person();
-	void play();
+	void printColor();
 protected:
-	string m_strName;
+	string m_strColor;
 //private:
 //	int m_iAge;
 };
+#endif // !1

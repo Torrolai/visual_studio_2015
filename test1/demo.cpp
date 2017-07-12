@@ -1,24 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Soldier.h"
-#include "Infantry.h"
+#include "MingrantWorker.h"
 using namespace std;
 int main(void)
 {
-	
-	//Person person;	
-	//person.eat();
-	//Soldier soldier;
-	//soldier.work();
-	
-	//Infantry infantry;
-	//infantry.attack();
-	//Soldier s1;
-	//saber
-
-	Person *p1 = new Soldier;
-	p1->play();
-	delete p1;
+	MigrantWorker *p=new MigrantWorker("LANCER", "007", "PINK");
+	//MigrantWorker M1("LANCER", "PINK", "007");
+	//M1.carry();
+	p->Farmer::printColor();
+	p->Worker::printColor();
+	delete p;
+	p = NULL;
 	system("pause");
 	return 0;
 }

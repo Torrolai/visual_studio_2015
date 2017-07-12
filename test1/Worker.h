@@ -1,11 +1,13 @@
 #pragma once
 #include"Person.h"
 
-class Worker :public Person
+class Worker :virtual public Person
 {
 public:
-	Worker();
-	~Worker();
-	void work();
-	int m_iSalary;
+	Worker(string code = "001", string color = "blue");
+	virtual ~Worker();
+	void carry();
+	//int m_iSalary;
+protected:
+	string m_strCode;
 };
