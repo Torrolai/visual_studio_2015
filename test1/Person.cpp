@@ -2,9 +2,9 @@
 #include <iostream>
 using namespace std;
 
-Person::Person(string name)
+Person::Person(string color)
 {
-	m_strName = name;
+	m_strColor = color;
 	cout << "Person()" << endl;
 }
 

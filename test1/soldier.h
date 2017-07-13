@@ -1,4 +1,3 @@
-/*
 #pragma once
 #include "Person.h"
 
@@ -13,4 +12,4 @@ protected:
 	int m_iAge;
 	string m_strName;
 };
-*/
+

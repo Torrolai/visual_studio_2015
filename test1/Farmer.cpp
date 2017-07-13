@@ -1,4 +1,3 @@
-/*
 #include "Farmer.h"
 #include <iostream>
 using namespace std;
@@ -20,4 +19,3 @@ void Farmer::sow()
 	cout << m_strName << endl;
 	cout << "Farmer-->sow()" << endl;
 }
-*/

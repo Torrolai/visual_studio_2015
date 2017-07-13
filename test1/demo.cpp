@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Worker.h"
+#include "MingrantWorker.h"
+#include "Rect.h"
+#include "Circle.h"
 using namespace std;
-
 int main(void)
 {
 	//MigrantWorker *p=new MigrantWorker("LANCER", "007", "PINK");
@@ -25,13 +26,10 @@ int main(void)
 	delete s2;
 	s1 = NULL;
 	s2 = NULL;
-	
+	*/
 	Shape S1;
 	Circle C1;
-	C1.calArea();*/
-
-	Worker worker("zs2", 20);
-
+	C1.calArea();
 
 	system("pause");
 	return 0;

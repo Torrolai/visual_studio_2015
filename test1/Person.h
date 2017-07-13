@@ -7,13 +7,11 @@ using namespace std;
 class Person
 {
 public:
-	Person(string name);
+	Person(string color = "blue");
 	virtual ~Person();
 	void printColor();
-	virtual void work() = 0;
 protected:
 	string m_strColor;
-	string m_strName;
 //private:
 //	int m_iAge;
 };

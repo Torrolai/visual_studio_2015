@@ -1,4 +1,3 @@
-/*
 #include "MingrantWorker.h"
 #include <iostream>
 using namespace std;
@@ -12,4 +11,3 @@ MigrantWorker::~MigrantWorker()
 {
 	cout << "~MigrantWorker()" << endl;
 }
-*/
