@@ -1,3 +1,4 @@
+/*
 #pragma once
 #include "Worker.h"
 #include "Farmer.h"
@@ -9,3 +10,4 @@ public:
 	MigrantWorker(string name, string code, string color);
 	~MigrantWorker();
 };
+*/

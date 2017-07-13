@@ -1,6 +1,6 @@
 #include "Circle.h"
 
-Circle::Circle(double R)
+Circle::Circle(int R)
 {
 	cout << "Circle()" << endl;
 	m_dR = R;

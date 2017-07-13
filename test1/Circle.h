@@ -6,12 +6,12 @@
 class Circle :public Shape
 {
 public:
-	Circle(double R = 3);
+	Circle(int R = 3);
 	virtual ~Circle();
 	virtual double calArea();
 	void print_C();
 protected:
-	double m_dR;
+	int m_dR;
 	Coordinate *m_pCenter;
 };
 

@@ -1,3 +1,4 @@
+/*
 #pragma once
 #include "soldier.h"
 
@@ -7,3 +8,4 @@ public:
 	void attack();
 	string m_strName;
 };
+*/

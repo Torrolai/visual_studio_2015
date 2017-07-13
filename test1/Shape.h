@@ -8,10 +8,10 @@ using namespace std;
 
 class Shape
 {
-public:
-	virtual double calArea();
+public:	
 	Shape();
 	virtual ~Shape();//ĞéÎö¹¹º¯Êı£¬±ÜÃâÄÚ´æĞ¹Â¶
+	virtual double calArea();
 };
 
 #endif // !SHAPE_H

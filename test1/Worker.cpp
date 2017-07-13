@@ -2,9 +2,9 @@
 #include "Worker.h"
 using namespace std;
 
-Worker::Worker(string code,string color):Person("Worker"+color)
+Worker::Worker(string name,int age):Person("Worker"+name)
 {
-	m_strCode = code;
+	m_iAge = age;
 	cout << "Worker()" << endl;
 }
 
@@ -17,4 +17,9 @@ void Worker::carry()
 {
 	cout << m_strCode << endl;
 	cout << "worker--carry()" << endl;
+}
+
+void Worker::work()
+{
+	cout << "work()" << endl;
 }

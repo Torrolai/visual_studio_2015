@@ -4,10 +4,13 @@
 class Worker :virtual public Person
 {
 public:
-	Worker(string code = "001", string color = "blue");
+	Worker(string name,int code);
 	virtual ~Worker();
 	void carry();
+	virtual void work();
 	//int m_iSalary;
+
 protected:
 	string m_strCode;
+	int m_iAge;
 };

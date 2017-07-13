@@ -1,3 +1,4 @@
+/*
 #include "Infantry.h"
 #include <iostream>
 using namespace std;
@@ -8,3 +9,4 @@ void Infantry::attack()
 	cout << m_strName << endl;
 	cout << "Infantry--attack()" << endl;
 }
+*/

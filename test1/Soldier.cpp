@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include "soldier.h"
 using namespace std;
@@ -26,3 +27,4 @@ void Soldier::work()
 	cout << m_strName << endl;
 	cout << "Soldier--Work" << endl;
 }
+*/
