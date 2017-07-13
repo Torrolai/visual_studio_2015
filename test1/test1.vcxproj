@@ -110,19 +110,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Coordinate.cpp" />
     <ClCompile Include="demo.cpp" />
     <ClCompile Include="Farmer.cpp" />
     <ClCompile Include="Infantry.cpp" />
     <ClCompile Include="MigrantWorker.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Soldier.cpp" />
     <ClCompile Include="Worker.cpp" />
+    <ClCompile Include="Circle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Coordinate.h" />
     <ClInclude Include="Farmer.h" />
     <ClInclude Include="Infantry.h" />
     <ClInclude Include="MingrantWorker.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="Shape.h" />
     <ClInclude Include="soldier.h" />
     <ClInclude Include="Worker.h" />
   </ItemGroup>

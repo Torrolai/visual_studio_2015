@@ -19,6 +19,9 @@
     <Filter Include="头文件\Inherit">
       <UniqueIdentifier>{fec4f722-a47b-40d0-974b-ea3ff39bd433}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Polymorphism">
+      <UniqueIdentifier>{ad3a357d-2f77-4312-bee5-86a8a55e7332}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="demo.cpp">
@@ -42,6 +45,18 @@
     <ClCompile Include="MigrantWorker.cpp">
       <Filter>头文件\Inherit</Filter>
     </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Coordinate.cpp">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Infantry.h">
@@ -61,6 +76,18 @@
     </ClInclude>
     <ClInclude Include="MingrantWorker.h">
       <Filter>头文件\Inherit</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinate.h">
+      <Filter>头文件\Polymorphism</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
