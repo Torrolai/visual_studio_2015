@@ -113,9 +113,11 @@
     <ClCompile Include="Coordinate.cpp" />
     <ClCompile Include="demo.cpp" />
     <ClCompile Include="Farmer.cpp" />
+    <ClCompile Include="FighterPlane.cpp" />
     <ClCompile Include="Infantry.cpp" />
     <ClCompile Include="MigrantWorker.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Plane.cpp" />
     <ClCompile Include="Rect.cpp" />
     <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Soldier.cpp" />
@@ -126,9 +128,12 @@
     <ClInclude Include="Circle.h" />
     <ClInclude Include="Coordinate.h" />
     <ClInclude Include="Farmer.h" />
+    <ClInclude Include="FighterPlane.h" />
+    <ClInclude Include="Flyable.h" />
     <ClInclude Include="Infantry.h" />
     <ClInclude Include="MingrantWorker.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Plane.h" />
     <ClInclude Include="Rect.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="soldier.h" />

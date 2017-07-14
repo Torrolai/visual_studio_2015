@@ -57,6 +57,12 @@
     <ClCompile Include="Coordinate.cpp">
       <Filter>头文件\Polymorphism</Filter>
     </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="FighterPlane.cpp">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Infantry.h">
@@ -87,6 +93,15 @@
       <Filter>头文件\Polymorphism</Filter>
     </ClInclude>
     <ClInclude Include="Coordinate.h">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyable.h">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>头文件\Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterPlane.h">
       <Filter>头文件\Polymorphism</Filter>
     </ClInclude>
   </ItemGroup>

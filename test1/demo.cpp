@@ -26,10 +26,13 @@ int main(void)
 	delete s2;
 	s1 = NULL;
 	s2 = NULL;
-	*/
+	
 	Shape S1;
 	Circle C1;
 	C1.calArea();
+	*/
+
+
 
 	system("pause");
 	return 0;
