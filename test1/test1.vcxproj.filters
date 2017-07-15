@@ -22,6 +22,12 @@
     <Filter Include="头文件\Polymorphism">
       <UniqueIdentifier>{ad3a357d-2f77-4312-bee5-86a8a55e7332}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Polymorphism\RTTI">
+      <UniqueIdentifier>{46aafe1b-ca6d-4703-8f1a-c00d19327592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Polymorphism\Virtual">
+      <UniqueIdentifier>{2beffbf2-5822-4f06-9903-8934bdf8085c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="demo.cpp">
@@ -45,23 +51,23 @@
     <ClCompile Include="MigrantWorker.cpp">
       <Filter>头文件\Inherit</Filter>
     </ClCompile>
-    <ClCompile Include="Shape.cpp">
-      <Filter>头文件\Polymorphism</Filter>
-    </ClCompile>
-    <ClCompile Include="Rect.cpp">
-      <Filter>头文件\Polymorphism</Filter>
-    </ClCompile>
-    <ClCompile Include="Circle.cpp">
-      <Filter>头文件\Polymorphism</Filter>
-    </ClCompile>
-    <ClCompile Include="Coordinate.cpp">
-      <Filter>头文件\Polymorphism</Filter>
+    <ClCompile Include="Bird.cpp">
+      <Filter>头文件\Polymorphism\RTTI</Filter>
     </ClCompile>
     <ClCompile Include="Plane.cpp">
-      <Filter>头文件\Polymorphism</Filter>
+      <Filter>头文件\Polymorphism\RTTI</Filter>
     </ClCompile>
-    <ClCompile Include="FighterPlane.cpp">
-      <Filter>头文件\Polymorphism</Filter>
+    <ClCompile Include="Circle.cpp">
+      <Filter>头文件\Polymorphism\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="Coordinate.cpp">
+      <Filter>头文件\Polymorphism\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>头文件\Polymorphism\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>头文件\Polymorphism\Virtual</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -83,26 +89,26 @@
     <ClInclude Include="MingrantWorker.h">
       <Filter>头文件\Inherit</Filter>
     </ClInclude>
-    <ClInclude Include="Shape.h">
-      <Filter>头文件\Polymorphism</Filter>
-    </ClInclude>
-    <ClInclude Include="Rect.h">
-      <Filter>头文件\Polymorphism</Filter>
-    </ClInclude>
-    <ClInclude Include="Circle.h">
-      <Filter>头文件\Polymorphism</Filter>
-    </ClInclude>
-    <ClInclude Include="Coordinate.h">
-      <Filter>头文件\Polymorphism</Filter>
+    <ClInclude Include="Bird.h">
+      <Filter>头文件\Polymorphism\RTTI</Filter>
     </ClInclude>
     <ClInclude Include="Flyable.h">
-      <Filter>头文件\Polymorphism</Filter>
+      <Filter>头文件\Polymorphism\RTTI</Filter>
     </ClInclude>
     <ClInclude Include="Plane.h">
-      <Filter>头文件\Polymorphism</Filter>
+      <Filter>头文件\Polymorphism\RTTI</Filter>
     </ClInclude>
-    <ClInclude Include="FighterPlane.h">
-      <Filter>头文件\Polymorphism</Filter>
+    <ClInclude Include="Circle.h">
+      <Filter>头文件\Polymorphism\Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinate.h">
+      <Filter>头文件\Polymorphism\Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>头文件\Polymorphism\Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>头文件\Polymorphism\Virtual</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

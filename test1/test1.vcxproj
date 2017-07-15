@@ -110,10 +110,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bird.cpp" />
     <ClCompile Include="Coordinate.cpp" />
     <ClCompile Include="demo.cpp" />
     <ClCompile Include="Farmer.cpp" />
-    <ClCompile Include="FighterPlane.cpp" />
     <ClCompile Include="Infantry.cpp" />
     <ClCompile Include="MigrantWorker.cpp" />
     <ClCompile Include="Person.cpp" />
@@ -125,10 +125,10 @@
     <ClCompile Include="Circle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bird.h" />
     <ClInclude Include="Circle.h" />
     <ClInclude Include="Coordinate.h" />
     <ClInclude Include="Farmer.h" />
-    <ClInclude Include="FighterPlane.h" />
     <ClInclude Include="Flyable.h" />
     <ClInclude Include="Infantry.h" />
     <ClInclude Include="MingrantWorker.h" />

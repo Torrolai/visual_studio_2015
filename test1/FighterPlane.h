@@ -6,7 +6,6 @@
 class FighterPlane :public Plane
 {
 public:
-	FighterPlane(string code);
 	virtual void takeoff();
 	virtual void land();
 };

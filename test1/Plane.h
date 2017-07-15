@@ -6,10 +6,11 @@
 class Plane :public Flyable
 {
 public:
-	Plane(string code);
 	virtual void takeoff();
 	virtual void land();
 	void printCode();
+	void carry();
+
 protected:
 	string m_strCode;
 };

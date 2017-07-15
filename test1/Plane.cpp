@@ -1,11 +1,6 @@
 #include "Plane.h"
 using namespace std;
 
-Plane::Plane(string code)
-{
-	m_strCode = code;
-	cout << "--Plane--" << endl;
-}
 
 void Plane::takeoff()
 {
@@ -19,6 +14,11 @@ void Plane::land()
 
 void Plane::printCode()
 {
-	cout << "Plnae'code is " << m_strCode << endl;
+	cout << "Plane's code is " << m_strCode << endl;
+}
+
+void Plane::carry()
+{
+	cout << "Plane-->carry " << endl;
 }
 

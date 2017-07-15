@@ -1,9 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "MingrantWorker.h"
-#include "Rect.h"
-#include "Circle.h"
+#include "Bird.h"
+#include "Plane.h"
+#include "FighterPlane.h" 
 using namespace std;
+
+void flyMatch(Flyable *f1, Flyable *f2)
+{
+	f1->takeoff();
+	f1->land();
+	f2->takeoff();
+	f2->land();
+}
+
+void doSomething(Flyable *obj)
+{
+	cout << typeid(*obj).name() << endl;
+	obj->takeoff();
+	if (typeid(*obj) == typeid(Bird))
+	{
+		Bird *bird = dynamic_cast<Bird*>(obj);
+		bird->foraging();
+	}
+	if (typeid(*obj) == typeid(Plane))
+	{
+		Plane *plane = dynamic_cast<Plane*>(obj);
+		plane->carry();
+	}
+	obj->land();
+}
 int main(void)
 {
 	//MigrantWorker *p=new MigrantWorker("LANCER", "007", "PINK");
@@ -31,8 +56,9 @@ int main(void)
 	Circle C1;
 	C1.calArea();
 	*/
-
-
+	int i;
+	i = 0;
+	cout << typeid(i).name() << endl;
 
 	system("pause");
 	return 0;
