@@ -3,6 +3,7 @@
 #include "Bird.h"
 #include "Plane.h"
 #include "FighterPlane.h" 
+#include "IndexException.h"
 using namespace std;
 
 void flyMatch(Flyable *f1, Flyable *f2)
@@ -29,6 +30,12 @@ void doSomething(Flyable *obj)
 	}
 	obj->land();
 }
+
+void test()
+{
+	throw IndexException();
+}
+
 int main(void)
 {
 	//MigrantWorker *p=new MigrantWorker("LANCER", "007", "PINK");
@@ -56,9 +63,14 @@ int main(void)
 	Circle C1;
 	C1.calArea();
 	*/
-	int i;
-	i = 0;
-	cout << typeid(i).name() << endl;
+	try
+	{
+		test();
+	}
+	catch (IndexException &e)
+	{
+		e.printException();
+	}
 
 	system("pause");
 	return 0;

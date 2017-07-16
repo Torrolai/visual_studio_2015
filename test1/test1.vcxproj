@@ -113,7 +113,9 @@
     <ClCompile Include="Bird.cpp" />
     <ClCompile Include="Coordinate.cpp" />
     <ClCompile Include="demo.cpp" />
+    <ClCompile Include="Exception.cpp" />
     <ClCompile Include="Farmer.cpp" />
+    <ClCompile Include="IndexException.cpp" />
     <ClCompile Include="Infantry.cpp" />
     <ClCompile Include="MigrantWorker.cpp" />
     <ClCompile Include="Person.cpp" />
@@ -128,8 +130,10 @@
     <ClInclude Include="Bird.h" />
     <ClInclude Include="Circle.h" />
     <ClInclude Include="Coordinate.h" />
+    <ClInclude Include="Exception.h" />
     <ClInclude Include="Farmer.h" />
     <ClInclude Include="Flyable.h" />
+    <ClInclude Include="IndexException.h" />
     <ClInclude Include="Infantry.h" />
     <ClInclude Include="MingrantWorker.h" />
     <ClInclude Include="Person.h" />
