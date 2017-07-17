@@ -117,6 +117,7 @@
     <ClCompile Include="Farmer.cpp" />
     <ClCompile Include="IndexException.cpp" />
     <ClCompile Include="Infantry.cpp" />
+    <ClCompile Include="Match.cpp" />
     <ClCompile Include="MigrantWorker.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Plane.cpp" />
@@ -125,6 +126,7 @@
     <ClCompile Include="Soldier.cpp" />
     <ClCompile Include="Worker.cpp" />
     <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bird.h" />
@@ -135,12 +137,14 @@
     <ClInclude Include="Flyable.h" />
     <ClInclude Include="IndexException.h" />
     <ClInclude Include="Infantry.h" />
+    <ClInclude Include="Match.h" />
     <ClInclude Include="MingrantWorker.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Plane.h" />
     <ClInclude Include="Rect.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="soldier.h" />
+    <ClInclude Include="Time.h" />
     <ClInclude Include="Worker.h" />
   </ItemGroup>
   <ItemGroup>

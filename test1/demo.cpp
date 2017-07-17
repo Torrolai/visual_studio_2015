@@ -4,6 +4,8 @@
 #include "Plane.h"
 #include "FighterPlane.h" 
 #include "IndexException.h"
+#include "Time.h"
+#include "Match.h"
 using namespace std;
 
 void flyMatch(Flyable *f1, Flyable *f2)
@@ -36,42 +38,19 @@ void test()
 	throw IndexException();
 }
 
+//void printTime(Time &t);
+
 int main(void)
 {
-	//MigrantWorker *p=new MigrantWorker("LANCER", "007", "PINK");
-	//MigrantWorker M1("LANCER", "PINK", "007");
-	//M1.carry();
-	//p->Farmer::printColor();
-	//p->Worker::printColor();
-	//delete p;
-	//p = NULL;
-	//Circle *C = new Circle(5);
-	//C->calArea();
-	/*
-	Shape *s1 = new Rect(3, 6);
-	Shape *s2 = new Circle(5);
-	Circle *c1 = new Circle(6);
-	c1->print_C;
-	s1->calArea();
-	s2->calArea();
-	delete s1;
-	delete s2;
-	s1 = NULL;
-	s2 = NULL;
-	
-	Shape S1;
-	Circle C1;
-	C1.calArea();
-	*/
-	try
-	{
-		test();
-	}
-	catch (IndexException &e)
-	{
-		e.printException();
-	}
-
+	Time t(6, 35, 34);
+	//printTime(t);
+	Match m;
+	m.printTime(t);;
 	system("pause");
 	return 0;
 }
+
+//void printTime(Time &t)
+//{
+//	cout << t.m_iHour << ":" << t.m_iMin << ":" << t.m_iSec << endl;
+//}
