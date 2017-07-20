@@ -37,6 +37,12 @@
     <Filter Include="头文件\Template\Friend">
       <UniqueIdentifier>{2a52fbf5-6cb7-489f-9482-2292801da9e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Template\Static">
+      <UniqueIdentifier>{c8bd4321-767c-4eba-b152-1f824383be39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Template\Overload">
+      <UniqueIdentifier>{48f4d057-7646-416f-b38c-de64eaaf6269}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="demo.cpp">
@@ -90,6 +96,12 @@
     <ClCompile Include="Match.cpp">
       <Filter>头文件\Template\Friend</Filter>
     </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>头文件\Template\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="Coordinate1.cpp">
+      <Filter>头文件\Template\Overload</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Infantry.h">
@@ -142,6 +154,12 @@
     </ClInclude>
     <ClInclude Include="Match.h">
       <Filter>头文件\Template\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>头文件\Template\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinate1.h">
+      <Filter>头文件\Template\Overload</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

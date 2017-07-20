@@ -4,8 +4,10 @@
 #include "Plane.h"
 #include "FighterPlane.h" 
 #include "IndexException.h"
-#include "Time.h"
-#include "Match.h"
+#include "Coordinate1.h"
+//#include "Time.h"
+//#include "Match.h"
+#include "Tank.h"
 using namespace std;
 
 void flyMatch(Flyable *f1, Flyable *f2)
@@ -42,10 +44,11 @@ void test()
 
 int main(void)
 {
-	Time t(6, 35, 34);
-	//printTime(t);
-	Match m;
-	m.printTime(t);;
+
+	coordinate1 coor1(1, 3);
+	cout << coor1.getX() << " " << coor1.getY() << endl;
+	cout << (coor1++).getX() << endl;
+	cout << (coor1++).getY() << endl;
 	system("pause");
 	return 0;
 }
